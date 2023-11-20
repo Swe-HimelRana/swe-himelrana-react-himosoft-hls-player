@@ -1,12 +1,12 @@
 {
-  "name": "@aka_theos/react-hls-player",
+  "name": "@swe-himelrana/react-himosoft-hls-player",
   "version": "1.0.0",
-  "description": "A hls player for react made by Theos",
+  "description": "A hls player for react made by Himel",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest"
   },
-  "author": "Mohamed Aziz Issaoui",
+  "author": "Himel",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",

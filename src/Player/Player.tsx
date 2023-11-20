@@ -32,7 +32,7 @@ function formateDuration(time: number) {
   }
 }
 
-function TheosPlayer({
+function HimosoftPlayer({
   hlsConfig,
   src,
   autoPlay,
@@ -296,7 +296,7 @@ function TheosPlayer({
     if (!video.current) {
       return;
     }
-    if (src.includes(".m3u8")) {
+    if (src.includes(".m3u8") || src.includes(".hvid") || src.includes(".hvplay")) {
       useHls();
     }
     if (color != null) {
@@ -534,4 +534,4 @@ function TheosPlayer({
   );
 }
 
-export default TheosPlayer;
+export default HimosoftPlayer;

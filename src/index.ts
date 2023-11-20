@@ -1,1 +1,1 @@
-export { default as TheosPlayer } from "./Player";
+export { default as HimosoftPlayer } from "./Player";
