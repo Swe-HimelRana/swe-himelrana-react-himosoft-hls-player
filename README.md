@@ -2,9 +2,13 @@
 
 A custom react hls player.
 
+It's simple and perfect for your application. 
+
+(It's a small working part as public version of my main project)
+
 ## Introduction
 
-`react-hls-player` is a simple HLS live stream player.
+`react-himosoft-hls-player` is a simple HLS live stream player.
 It uses [hls.js](https://github.com/video-dev/hls.js) to play your hls live stream if your browser supports `html 5 video` and `MediaSource Extension`.
 
 ```javascript
@@ -67,3 +71,26 @@ All [video properties](https://www.w3schools.com/tags/att_video_poster.asp) are 
 ### Additional Notes
 
 By default, the HLS config will have `enableWorker` set to `false`. There have been issues with the HLS.js library that breaks some React apps, so I've disabled it to prevent people from running in to this issue. If you want to enable it and see if it works with your React app, you can simply pass in `enableWorker: true` to the `hlsConfig` prop object. [See this issue for more information](https://github.com/video-dev/hls.js/issues/2064)
+
+
+# Change log of react-himosoft-hls-player
+
+Version: 1.0.0
+
+    - Initial Release
+
+Version: 1.0.1
+
+    - Simple Bug Fix
+
+Version: 1.0.2
+
+    - Docs update (Fixed Wrong import instruction)
+
+Version: 1.0.3
+
+    - Fixed minor bug
+
+Version: 1.0.4
+
+    - Updated Doc (Added changelog in main doc)
