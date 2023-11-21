@@ -11,3 +11,7 @@ Version: 1.0.1
 Version: 1.0.2
 
     - Docs update (Fixed Wrong import instruction)
+
+Version: 1.0.3
+
+    - Fixed minor bug

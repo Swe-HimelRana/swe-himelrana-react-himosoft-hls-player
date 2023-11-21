@@ -1,6 +1,6 @@
 {
   "name": "@swe-himelrana/react-himosoft-hls-player",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A hls player for react made by Himel",
   "scripts": {
     "rollup": "rollup -c",
