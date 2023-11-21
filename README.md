@@ -1,4 +1,4 @@
-# react-hls-player
+# react-himosoft-hls-player
 
 A custom react hls player.
 
@@ -18,7 +18,7 @@ npm install @swe-himelrana/react-himosoft-hls-player
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import HimosoftPlayer from "@swe-himelrana/react-himosoft-hls-player";
+import {HimosoftPlayer} from "@swe-himelrana/react-himosoft-hls-player";
 
 ReactDOM.render(
   <HimosoftPlayer
@@ -36,7 +36,7 @@ All available config properties can be found on the [Fine Tuning](https://github
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import HimosoftPlayer from "@swe-himelrana/react-himosoft-hls-player";
+import {HimosoftPlayer} from "@swe-himelrana/react-himosoft-hls-player";
 
 ReactDOM.render(
   <HimosoftPlayer
